@@ -1,0 +1,254 @@
+.theBody {
+    $mywidth: 100%;
+    width: $mywidth;
+    body {
+        // background: $bgcolor;
+        // color: $textcolor;
+        $bgcolor: black;
+        $textcolor: black;
+        $fontsize: 18px;
+        font-size: $fontsize;
+        $mywidth: 100%;
+        width: $mywidth;
+        $myheight: 100%;
+        height: $myheight;
+        text-align: center;
+        overflow-y: auto;
+        .avatar {
+            position: absolute;
+            z-index: 5;
+            top: 10%;
+            right: 0%;
+        }
+        #bg {
+            width: 106% !important;
+            margin: 0px -50% 0px -3% !important;
+            padding: 10px 0px 0px 0px !important;
+            $myheight: 100%;
+            height: $myheight;
+            $myposition: absolute;
+            position: $myposition;
+            $z-index: -1;
+            z-index: $z-index;
+            top: -20px;
+        }
+        #bd {
+            $mywidth: 100%;
+            width: $mywidth;
+            $myheight: 100%;
+            height: $myheight;
+            $myborder-radius: 10px;
+            border-radius: $myborder-radius;
+            $mybackground: rgba(0, 0, 0, 0.6);
+            background: $mybackground;
+        }
+        h3 {
+            $fontsize: 25px;
+            font-size: $fontsize;
+            $textcolor: black;
+            color: $textcolor;
+            text-align: start;
+        }
+        h2 {
+            $fontsize: 25px;
+            font-size: $fontsize;
+            $textcolor: black;
+            color: $textcolor;
+           
+        }
+        p {
+            $textcolor: black;
+            color: $textcolor;
+            $font-size: inherit;
+            font-size: $font-size;
+        }
+        #item {
+            $textcolor: black;
+            color: $textcolor;
+        }
+        #cen {
+            $margin: 5px 20px 5px 300px;
+            margin: $margin;
+        }
+        #lol {
+            $textcolor: black;
+            color: $textcolor;
+        }
+        #button {
+            $padding: 10px;
+            padding: $padding;
+            $border-radius: 50px 20px;
+            border-radius: $border-radius;
+        }
+        #but {
+            $margin-left: 60%;
+            margin-left: $margin-left;
+        }
+        .div2 {
+            $background-color: #fff;
+            background-color: $background-color;
+            $mywidth: 100%;
+            width: $mywidth;
+            $margin-left: 0%;
+            margin-left: $margin-left;
+            $myheight: 200px;
+            height: $myheight;
+            $margin-bottom: 0%;
+            margin-bottom: $margin-bottom;
+            // border-top-right-radius: 30%;
+            // border-top-left-radius: 30%;
+            padding-left: 15px;
+
+          
+        }
+        .line {
+            position: absolute;
+            top: 320px;
+            // left: 0;
+            // width: 100%;
+            // height: 100px;
+            bottom: 0px;
+            // margin: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            zoom: 1.6;
+            width: 100%;
+            height: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        #img {
+            $myheight: 60%;
+            height: $myheight;
+        }
+        .div1 {
+            $background-color: black;
+            background-color: $background-color;
+            $myheight: 100%;
+            height: $myheight;
+            padding: 150px 0px 0px 0px !important;
+            #age {
+                color: white;
+            }
+        }
+        #out {
+            text-align: start;
+        }
+        #for {
+            $margin-left: 62%;
+            margin-left: $margin-left;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        #heading {
+            $fontsize: 25px;
+            font-size: $fontsize;
+           // $font-family: "Comic Sans MS";
+          //  font-family: $font-family;
+            $textcolor: #ffff;
+            color: $textcolor;
+        }
+        #name {
+            $fontsize: 15px;
+            font-size: $fontsize;
+           // $font-family: "Comic Sans MS";
+          //  font-family: $font-family;
+            $textcolor: #ffff;
+            color: $textcolor;
+        }
+        a {
+            color: #11C2D4;
+            text-decoration: none;
+        }
+        img {
+            border-radius: 50%;
+            text-align: center;
+        }
+         :root {
+            .profile {
+                height: 100%;
+                width: 100%;
+                -webkit-box-shadow: 0px 0px 142px -37px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 0px 142px -37px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 142px -37px rgba(0, 0, 0, 0.75);
+            }
+        }
+        .profile-image img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .input {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .profile-image {
+            img {
+                background-color: white;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                border: 3px solid #fff;
+                -webkit-box-shadow: 0px 0px 142px -37px rgb(0, 0, 0);
+                -moz-box-shadow: 0px 0px 142px -37px  rgb(0, 0, 0);
+                box-shadow: 0px 0px 142px -37px  rgb(0, 0, 0);
+            }
+            .pro-pic {
+                size: 16px;
+            }
+        }
+        .profile-image {
+            position: absolute;
+            z-index: 5;
+            top: 15%;
+            left: 6%;
+        }
+        .image-upload>input {
+            display: none;
+            margin-top: 20px;
+        }
+        .input {
+            font-size: 25px;
+        }
+        ion-spinner {
+            display: block;
+            margin: auto;
+            top: -60px;
+            width: 30px;
+            height: 30px;
+        }
+        // ion-fab {}
+        .document {
+            font-size: 20px;
+        }
+        .camera {
+            font-size: 20px;
+        }
+        .fab {
+            top: 80px !important;
+        }
+    }
+    .icons {
+        zoom: 1.5;
+    }
+    .tabIcons {
+        width: 20px;
+        height: 20px;
+    }
+    ion-icon{
+        color: black;
+    }
+    ion-label{
+        text-align: center;
+    }
+    ion-item{
+        margin-right: 16px;
+    }
+    .eye{
+        width: 50%;
+        width: 50%;
+    }
+}

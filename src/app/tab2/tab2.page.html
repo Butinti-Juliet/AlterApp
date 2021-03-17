@@ -1,0 +1,149 @@
+<ion-content [fullscreen]="true" class="theBody">
+  <body>
+    <div>
+        <div id="bg">
+            <ion-grid>
+                <ion-row color="black" justify-content-center>
+                    <br>
+                    <ion-col align-self-center size-md="12" size-lg="11" size-xs="12">
+
+                        <div class="div1">
+                            <h2 id="heading" text-center>Measurements</h2>
+
+                            <ion-icon class="eye" name="eye-outline" color="light" routerLink='/view-measure'></ion-icon>
+
+                            <br>
+
+                            <div class="profile-image">
+                                <div>
+                                    <img src="{{photoURL}}">
+                                </div>
+                                <div>
+                                    <!-- <img src="\assets\images\wel.PNG"> -->
+                                </div>
+
+                                <div class="image-upload">
+                                    <ion-fab horizontal="center" vertical="top" class="fab">
+                                        <ion-fab-button color="black" size="small">
+                                            <ion-icon name="camera" class="input"> </ion-icon>
+                                        </ion-fab-button>
+
+
+
+                                        <ion-fab-list side="end">
+                                            <ion-fab-button color="black">
+                                                <label for="file-input2">
+                                                                <ion-icon name="document" class="document"> </ion-icon> 
+                                                        </label>
+                                            </ion-fab-button>
+                                        </ion-fab-list>
+                                    </ion-fab>
+
+
+                                    <input id="file-input2" class="input" type="file">
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="div2">
+                                <br><br><br>
+                                <br><br>
+                                <div padding>
+                                      
+                                      
+                                  <ion-item id="item" color="transparent">
+                                  <ion-label color="black" position="floating">Item Name</ion-label>
+                                  <!-- <ion-item id="item" lines="none"> -->
+                                    
+                                      <ion-input type="tel"></ion-input>
+                                  </ion-item>
+                                  <!-- <div class="error" *ngIf="signupForm.get('username').hasError('required') && signupForm.get('username').touched">
+                                      Please input your Username
+                                  </div>
+                                  <div class="error" *ngIf="signupForm.get('username').hasError('minlength') && signupForm.get('username').touched">
+                                      Minimum 4 characters
+                                  </div>
+                                  <div class="error" *ngIf="signupForm.get('username').hasError('maxlength') && signupForm.get('username').touched">
+                                      Maximum 30 characters
+                                  </div> -->
+                                  
+                                  <ion-item id="item" color="transparent">
+                                  <ion-label color="black" position="floating">Type</ion-label>
+                                  <!-- <ion-item id="item" lines="none"> -->
+                                    
+                                      <ion-input type="text"></ion-input>
+                                  </ion-item>
+                                  <!-- <div class="error" *ngIf="signupForm.get('email').hasError('required') && signupForm.get('email').touched">
+                                      Please input your email
+                                  </div>
+                                  <div class="error" *ngIf="signupForm.get('email').hasError('pattern') && signupForm.get('email').touched">
+                                      Email address invalid
+                                  </div> -->
+                                  
+                                  <ion-item id="item" color="transparent">
+                                  <ion-label color="black" position="floating">Size</ion-label>
+                                  <!-- <ion-item id="item" lines="none"> -->
+                                     
+                                      <ion-input type="number"></ion-input>
+                                  </ion-item>
+                                  <!-- <div class="error" *ngIf="signupForm.get('password').hasError('required') && signupForm.get('password').touched">
+                                      Please input your password
+                                  </div>
+
+                                  <div class="error" *ngIf="signupForm.get('password').hasError('minlength') && signupForm.get('password').touched">
+                                      Minimum 6 characters
+                                  </div>
+
+                                  <div class="error" *ngIf="signupForm.get('password').hasError('maxlength') && signupForm.get('password').touched">
+                                      Maximum 12 characters
+                                  </div> -->
+<!-- address search -->  
+<ion-item id="item" color="transparent">
+<ion-label color="black" position="floating">Item Name</ion-label>
+
+<!-- <ion-item id="item" lines="none"> -->
+
+<ion-input type="text"></ion-input>
+</ion-item>
+<!-- <div style="position: absolute; max-width: 90%; min-width: 90%; z-index: 999; " class="search">
+<ion-list lines="none" *ngIf="addresses.length > 0" color="lightb" style="background: var(--ion-item-background,var(--ion-background-color, black)); ">
+  <ion-item *ngFor="let address of addresses ; let i=index" (click)="onSelect(address, i)" color="dark">
+      <ion-icon name="pin"></ion-icon>
+      <p class="searchv">{{address}}</p>
+  </ion-item>
+</ion-list>
+</div>
+<div class="error" *ngIf="signupForm.get('address').hasError('required') && signupForm.get('address').touched">
+Please input your address
+</div> -->
+
+                     
+                                 
+                                  <br>
+                                  
+                                 
+                              </div>
+
+
+  <ion-button style="width: 95%;" shape="round" expand="full" color="light">
+Save
+  </ion-button>
+
+
+                            </div>
+                           
+                        </div>
+                    </ion-col>
+
+                </ion-row>
+            </ion-grid>
+
+
+        </div>
+  
+
+    </div>
+</body>
+
+  <app-explore-container name="Tab 2 page"></app-explore-container>
+</ion-content>

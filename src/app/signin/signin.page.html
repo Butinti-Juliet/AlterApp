@@ -1,0 +1,105 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>signin</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+
+
+  <body>
+
+    <div id="bg">
+
+        <ion-grid>
+            <ion-row color="black" justify-content-center>
+
+                <ion-col align-self-center size-md="12" size-lg="11" size-xs="12">
+
+
+                    <div class="div1">
+
+                        <br><br><br>
+                        <img src="assets/images/AlrterW.png" alt="Avatar" class="imgC">
+
+                        <br><br><br>
+                        <div class="div2">
+
+                            <div class="">
+
+                           
+                                <!-- <form [formGroup]="loginForm"> -->
+                                    <br>
+                                    <div>
+                                        <ion-item id="item" color="transparent">
+                                            <ion-icon name="mail-outline" slot="end"></ion-icon>
+                                      <ion-label color="black" position="floating">Email</ion-label>
+                                          <ion-input type="email"></ion-input>
+                                         
+                                      </ion-item>
+
+                                     
+                                      <br>
+                                      <!-- <div class="error" *ngIf="loginForm.get('email').hasError('required') && loginForm.get('email').touched">
+                                          Please input your email
+                                      </div>
+                                      <div class="error" *ngIf="loginForm.get('email').hasError('pattern') && loginForm.get('email').touched">
+                                          Email address invalid
+                                      </div> -->
+                                      <ion-item id="item" color="transparent">
+                                        <ion-icon name="key-outline" slot="end"></ion-icon>
+                                      <ion-label color="black" position="floating">Password</ion-label>
+                                          <ion-input  type="password" ></ion-input>
+                                      </ion-item>
+                                      <!-- <div class="error" *ngIf="loginForm.get('password').hasError('required') && loginForm.get('password').touched">
+                                          Please input your password
+                                      </div>
+                                      <div class="error" *ngIf="loginForm.get('password').hasError('minlength') && loginForm.get('password').touched">
+                                          Minimum 6 characters
+                                      </div>
+                                      <div class="error" *ngIf="loginForm.get('password').hasError('maxlength') && loginForm.get('password').touched">
+                                          Maximum 12 characters
+                                      </div> -->
+                                      
+                                      
+
+                                    </div>
+                                
+                                    <br>
+                                    <ion-col>
+                                        <ion-button routerLink='/tabs/tab1' style="width: 95%;" shape="round" expand="full" color="light">Login</ion-button>
+                                    </ion-col>
+                                    <br>
+                               
+                                    <a class="forgett" routerLink='/welcome'>Forgot Password</a><br><br>
+                                    <a routerLink='/signup'> No account yet? Create an account.</a>
+
+                                    <br><br><br>
+
+
+
+
+                                <!-- </form> -->
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    
+
+                </ion-col>
+
+            </ion-row>
+        </ion-grid>
+    
+
+
+    </div>
+
+
+</body>
+
+
+</ion-content>

@@ -1,0 +1,117 @@
+<ion-content [fullscreen]="true" class="theBody">
+   <body>
+        <div>
+            <div id="bg">
+                <ion-grid>
+                    <ion-row color="black" justify-content-center>
+                        <br>
+                        <ion-col align-self-center size-md="12" size-lg="11" size-xs="12">
+
+                            <div class="div1">
+                                <h2 id="heading" text-center>My Profile</h2>
+
+                                <ion-label id="name" text-center>Jay
+                                    <ion-icon name="create"></ion-icon>
+                                </ion-label>
+                                <br>
+
+                                <div class="profile-image">
+                                    <div>
+                                        <img src="{{photoURL}}">
+                                    </div>
+                                    <div>
+                                        <!-- <img src="\assets\images\wel.PNG"> -->
+                                    </div>
+
+                                    <div class="image-upload">
+                                        <ion-fab horizontal="center" vertical="top" class="fab">
+                                            <ion-fab-button color="black" size="small">
+                                                <ion-icon name="camera" class="input"> </ion-icon>
+                                            </ion-fab-button>
+
+
+
+                                            <ion-fab-list side="end">
+                                                <ion-fab-button color="black">
+                                                    <label for="file-input2">
+                                                                    <ion-icon name="document" class="document"> </ion-icon> 
+                                                            </label>
+                                                </ion-fab-button>
+                                            </ion-fab-list>
+                                        </ion-fab>
+
+
+                                        <input id="file-input2" class="input" type="file">
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div class="div2">
+                                    <br><br><br>
+                                    <br><br><br>
+                                    <ion-list lines="none">
+                                        <ion-item detail-push>
+
+                                            <ion-label>
+                                                <Nav>Store Name</Nav>
+                                            </ion-label>
+
+                                            <ion-icon name="mail" color=black slot="start"></ion-icon>
+                                            <!-- <ion-icon name="create" color="dark" slot="end" (click)=" NameUpdate(user)"></ion-icon> -->
+                                        </ion-item>
+                                        <br>
+                                    
+                                        <ion-item>
+
+                                            <ion-label >address
+                                                
+                                            </ion-label>
+
+                                            <ion-icon name="navigate" color="black" slot="start"></ion-icon>
+                                            
+                                            <ion-icon name="create"></ion-icon>
+                                        </ion-item>
+                                        <br>
+                                        <ion-item >
+
+                                            <ion-label>
+                                                Phone Number
+                                            </ion-label>
+
+                                            <ion-icon name="call" color="black" slot="start"></ion-icon>
+                                          
+                                            <ion-icon name="create"></ion-icon>
+                                        </ion-item>
+                                        <br>
+                                        <!-- <ion-item>
+
+                                            <ion-label>Store Name</ion-label>
+
+                                            <ion-icon name="person" color="black" slot="start"></ion-icon>
+                                            
+                                        </ion-item> -->
+
+
+                                    </ion-list>
+
+
+
+
+                                </div>
+                               
+                            </div>
+                        </ion-col>
+
+                    </ion-row>
+                </ion-grid>
+
+
+            </div>
+      
+
+        </div>
+    </body>
+
+
+  <app-explore-container name="Tab 3 page"></app-explore-container>
+</ion-content>

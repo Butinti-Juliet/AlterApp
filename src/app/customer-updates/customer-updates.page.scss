@@ -1,0 +1,169 @@
+.form {
+    width: 100%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    padding: 10px 18px;
+    // background: rgba(179, 179, 179, 0.623);
+    -webkit-text-fill-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+$bgcolor: white;
+$textcolor: white;
+$fontsize: 18px;
+
+/* Use the variables */
+
+body {
+    // background: $bgcolor;
+    // color: $textcolor;
+    font-size: $fontsize;
+    $mywidth: 100%;
+    width: $mywidth;
+    $myheight: 100%;
+    height: $myheight;
+
+    overflow-y: auto;
+    #bg {
+        // background-color: ##030303;
+        width: 106% !important;
+        margin: 0px -50% 0px -3% !important;
+        padding: 10px 0px 0px 0px !important;
+        // $mywidth: 100%;
+        // width: $mywidth;
+        $myheight: 100%;
+        height: $myheight;
+        $myposition: absolute;
+        position: $myposition;
+        $z-index: -1;
+        z-index: $z-index;
+        // left: -10px;
+        // margin-left: 10%;
+        // right: 10px;
+        top: -20px;
+    }
+    #bd {
+        // -webkit-text-fill-color: aliceblue;
+        $mywidth: 100%;
+        width: $mywidth;
+        $myheight: 100%;
+        height: $myheight;
+        $myborder-radius: 10px;
+        border-radius: $myborder-radius;
+        $mybackground: white;
+        background: $mybackground;
+    }
+    h3 {
+        $fontsize: 25px;
+        font-size: $fontsize;
+     //   $font-family: "Times New Roman", Times, serif;
+     //   font-family: $font-family;
+        $textcolor: white;
+        color: $textcolor;
+        text-align: center;
+        
+    }
+    h2 {
+        $fontsize: 25px;
+        font-size: $fontsize;
+        //$font-family: "Times New Roman", Times, serif;
+      //  font-family: $font-family;
+        $textcolor: white;
+        color: $textcolor;
+        // $padding: 0px 280px 50px 0px;
+        // padding: $padding;
+    }
+    p {
+        $textcolor: white;
+        color: $textcolor;
+        $font-size: inherit;
+        font-size: $font-size;
+    }
+    #item {  
+          padding: 0px;
+    }
+    #cen {
+        $margin: 5px 20px 5px 300px;
+        margin: $margin;
+    }
+    #lol {
+        $textcolor: white;
+        color: $textcolor;
+    }
+    #button {
+        $padding: 10px;
+        padding: $padding;
+        $border-radius: 50px 20px;
+        border-radius: $border-radius;
+    }
+    #but {
+        $margin-left: 60%;
+        margin-left: $margin-left;
+    }
+    .div2 {
+        $background-color: black;
+        background-color: $background-color;
+        $mywidth: 100%;
+        width: $mywidth;
+        $margin-left: 0%;
+        margin-left: $margin-left;
+        $myheight: 700px;
+        height: $myheight;
+        $margin-bottom: 0%;
+        
+    }
+    #img {
+        $myheight: 60%;
+        height: $myheight;
+    }
+    .div1 {
+        $background-color: white;
+        background-color: $background-color;
+        $myheight: 60%;
+        height: $myheight;
+    }
+    #out {
+        text-align: start;
+    }
+    #for {
+        $margin-left: 62%;
+        margin-left: $margin-left;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 10%;
+    }
+    .centered {
+        text-align: center;
+    }
+    .forgett {
+        color: white;
+        margin-left: 30%;
+        // margin-right: auto;
+      
+    }
+    .imgC {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+    }
+
+ion-card{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    
+}
+ion-item{
+    margin-right: 4%;
+}
+}
